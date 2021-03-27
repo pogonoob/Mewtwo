@@ -1,14 +1,14 @@
 {
-      "name": "GRAND OFFICIAL",
-      "description": "An OP Telegram UserBot.",
+      "name": "Mewtwo 3.0",
+      "description": "A best telegram group moderator.",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "LEGEND"
+         "Mewtwo"
       ],   
-   "repository": "https://github.com/LEGENDXOP/LEGEND-X",
+   "repository": "https://github.com/pogonoob/Mewtwo",
    "addons": [
       {
          "options": {
@@ -183,12 +183,11 @@
       }
    },
    "keywords": [
-      "telegram",
-      "anime",
+      "telegram"
       "group",
       "manager",
-      "GRAND"
+      "Mewtwo"
    ],
-   "name": "GRAND OFFICIAL",
-   "repository": "https://github.com/LEGENDXOP/LEGEND-X"
+   "name": "Mewtwo 3.0",
+   "repository": "https://github.com/pogonoob/Mewtwo"
 }
