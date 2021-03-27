@@ -81,15 +81,15 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add LEGEND BOT to your group 💫",
-            url="t.me/grand50_bot?startgroup=true",
+            text="💫 Add Mewtwo3.0 BOT to your group 💫",
+            url="t.me/mewtwo3_bot?startgroup=true",
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [GRAND OFFICIAL](https://telegra.ph/file/4a14aa91d2276be702ae7.jpg)
+*Main Commands :* [Mewtwo 3.0](https://telegra.ph/file/ae5a7b751569bb8b5062e.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -360,8 +360,8 @@ def LEGEND_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by @LEGENDX22.* "
-            f"\n\n 🔥 Join [GRAND OFFICIAL](https://t.me/teamishere) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by @Swami_2_0_0_5.* "
+            f"\n\n 🔥 Join [Mewtwo bot support](https://t.me/mewtwo1_botsupport) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/11de6b6641f5f5d5b344d.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
@@ -419,8 +419,8 @@ def LEGEND_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [LEGEND X](https://github.com/LEGENDXOP)."
-            f"\n\n{dispatcher.bot.first_name}'s source code was rewritten by @LEGENDX22 and @PROBOYX"
+            f"\n\nBased on [Swami](https://github.com/pogonoob)."
+            f"\n\n{dispatcher.bot.first_name}'s source code was rewritten by @Swami_2_0_0_5"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -477,13 +477,13 @@ def LEGEND_about_callback(update, context):
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
             f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
-            f"\n✪ Always try to keep credits, so \n  This hardwork is done by @LEGENDX22 spending many sleepless nights.. So, Respect it."
+            f"\n✪ Always try to keep credits, so \n  This hardwork is done by @Swami_2_0_0_5 spending many sleepless nights.. So, Respect it."
             f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
-            f"\n✪ If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
+            f"\n✪ If you need to ask anything about \n  this bot, Go @mewtwo1_botsupport."
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
             f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
             f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of LEGENDBot we are not resposible for anything."
-            f"\n\nFor any kind of help, related to this bot, Join @{SUPPORT_CHAT}."
+            f"\n\nFor any kind of help, related to this bot, Join @mewtwo1_botsupport."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
@@ -537,9 +537,7 @@ def get_help(update, context):
                         )
                     ],
                     [
-                        InlineKeyboardButton(
-                            text="Support Chat",
-                            url="https://t.me/{}".format(SUPPORT_CHAT),
+                        InlineKeyboardButton(                            text="Support Chat",                            url="Mewtwo bot supporthttps://t.me/mewtwo1_botsupport,
                         )
                     ],
                 ]
