@@ -20,7 +20,7 @@ Fir web ko off kro aur worker ko on kro fir agar koi error mile to
 Reveal config vars me jaao port ko delete krdo aur wheebook ko bhi the. WAIT 2-3 aur bot start🥰
 Deploy link 👇
 ```
-# [DEPLOY HERE](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fpogonoob%2FMewtwo&template=https%3A%2F%2Fgithub.com%2Fpogonoob%2FMewtwo)
+# [DEPLOY HERE](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fpogonoob%2FMewtwo&template=https%3A%2F%2Fgithub.com%2Fpogonoob%2FLMewtwo)
 </details>
 
 <details>
