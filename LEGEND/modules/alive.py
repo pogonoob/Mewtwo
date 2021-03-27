@@ -37,7 +37,7 @@ async def awake(event):
 async def callback_query_handler(event):
 # inline by @Swami_2_0_0
   PROBOYX = [[Button.url("REPO-Mewtwo 3.0", "https://github.com/pogonoob/Mewtwo"), Button.url("Mewtwo Repo", "https://github.com/op-coder482/Soul-thunder-")]]
-  PROBOYX +=[[Button.url("DEPLOY-Mewtwo 3.0", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fpogonoob%2FMewtwo&template=https%3A%2F%2Fgithub.com%2Fpogonoob%2FMewtwoP%2FLE"), Button.url("DEPLOY-", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FULTROID-OP%2FULTROID-BOT&template=https%3A%2F%2Fgithub.com%2FULTROID-OP%2FULTROID-BOT")]]
+  PROBOYX +=[[Button.url("DEPLOY-Mewtwo 3.0", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fpogonoob%2FMewtwo&template=https%3A%2F%2Fgithub.com%2Fpogonoob%2FMewtwoP%2FLE")
   PROBOYX +=[[Button.url("SUPPORT CHANNEL", "https://t.me/mewtwo1_botsupport"), Button.url("SUPPORT GROUP", "https://t.me/mewtwo1_botsupoort")]]
 
 
@@ -53,15 +53,15 @@ async def callback_query_handler(event):
   LEGENDX += "FULLY UPDATED BOT\n\n"
   LEGENDX += "TELETHON : 1.19.5 LATEST\n\n"
   LEGENDX += "THANKS FOR ADDING ME HERE"
-  BUTTONS = [[Button.url("MASTER", "https://t.me/LEGENDX22"), Button.url("DEVLOPER", "https://t.me/proboyx")]]
+  BUTTONS = [[Button.url("MASTER", "https://t.me/Swami_2_0_0_5"), Button.url("DEVLOPER", "https://t.me/swami_2_0_0_5")]]
   BUTTONS += [[custom.Button.inline("REPOSITORYS", data="LEGENDX")]]
   await event.edit(text=LEGENDX, buttons=BUTTONS)
 
 
 @register(pattern=("/repo|/REPO"))
 async def repo(event):
-  await tbot.send_message(event.chat, "REPO OF GRAND OFFICIAL", buttons=[[Button.url("⚜️REPO⚜️", "https://github.com/LEGENDXOP/LEGEND-X")]])
-# PROBOYX 🔥 LEGENDX22
+  await tbot.send_message(event.chat, "REPO OF Mewtwo 3.0", buttons=[[Button.url("⚜️REPO⚜️", "https://github.com/pogonoob/Mewtwo")]])
+# Swami_2_0_0_5
 
 __help__ = """
  - /alive check bot alive or die
